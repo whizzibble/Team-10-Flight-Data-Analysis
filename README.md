@@ -5,4 +5,4 @@ Niamh Murphy
 Sadhbh McGlinn
 Anna Xue
 Ella Lavelle Hayes
-Pan Yue
+Yue Pan
