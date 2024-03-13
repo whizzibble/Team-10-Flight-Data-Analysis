@@ -2,7 +2,7 @@
 
 Aoife Mahon
 Niamh Murphy
-Sadhabh McGlinn
+Sadhbh McGlinn
 Anna Xue
 Ella Lavelle Hayes
 Pan Yue
