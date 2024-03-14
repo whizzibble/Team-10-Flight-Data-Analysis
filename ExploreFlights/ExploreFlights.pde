@@ -25,11 +25,11 @@ void setup(){
   data.setup();
   
   //Button setup//
-  PFont stdFont;
   Widget widget1, widget2, widget3;
 
-  stdFont = loadFont("Arial-Black-48.vlw");
-  textFont(stdFont);
+// Niamh
+  PFont myFont = loadFont("Phosphate-Solid-28.vlw");
+  textFont(myFont);
 
   widget1 = new Widget(40, 40, 160, 40, "Airline", color(80, 142, 228), stdFont, EVENT_BUTTON1);
   widget2 = new Widget(260, 40, 160, 40, "Destination", color(88,224,104), stdFont, EVENT_BUTTON2);
@@ -44,9 +44,14 @@ void setup(){
 void draw() {
   background(bgImg);
   //image(mouseImg, 1000, 1000);
-  
-  if(currentLineIndex < lines.length) {
-    println(lines[currentLineIndex]);
+  //Niamh 
+  if(currentLineIndex < lines.length){
+    println(lines[currentLineIndex]); 
+    if(currentLineIndex>0){
+      fill(0);
+      text(lines[currentLineIndex],5,100);
+      delay(500);
+    }
     currentLineIndex++;
   }
   
