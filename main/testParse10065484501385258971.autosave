@@ -1,11 +1,11 @@
-// written by  Yue Pan
+//Yue Pan, testing Parse class, 6pm 13/03/2024 
 Table table;
 Parse parser;
 
 void setup(){
   parser = new Parse();
-  table = parser.createTable("flights2k.csv");
- // table = parser.getTable;
+  parser.createTable("flights2k.csv");
+  table = parser.getTable;
   
   table.print();
 }
