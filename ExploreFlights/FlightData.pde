@@ -22,6 +22,7 @@ class FlightData {
         newRow.setString(0, date[0]);
       }
     }
+print("Niamh");
     saveTable(dateTable, "data/DATES.csv");
   }
 }
