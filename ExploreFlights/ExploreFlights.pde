@@ -62,7 +62,6 @@ void draw() {
   }
 }
 //// written by Sadhbh and Niamh
-// Niamh's version of main
 //import java.util.Scanner;
 //String[] lines;
 //int currentLineIndex = 0;
@@ -70,17 +69,22 @@ void draw() {
 
 
 //void setup(){
-//  size(400, 400);
+//  size(1407, 946);
+//  PFont myFont = loadFont("Phosphate-Solid-28.vlw");
+//  textFont(myFont);
 //  lines = loadStrings("flights2k.csv");
-// // PFont myFont = loadFont("Phosphate-Solid-48.vlw");
 //  StoreData storeData = new StoreData();
 //  storeData.setup();
 //}
 //void draw(){
-//  background(200);
+//  background(255);
 //  if(currentLineIndex < lines.length){
-//    println(lines[currentLineIndex]);
-//    //text(lines[currentLineIndex], 100, 100);
+//    println(lines[currentLineIndex]); 
+//    if(currentLineIndex>0){
+//      fill(0);
+//      text(lines[currentLineIndex],5,100);
+//      delay(500);
+//    }
 //    currentLineIndex++;
 //  }
 //} 
