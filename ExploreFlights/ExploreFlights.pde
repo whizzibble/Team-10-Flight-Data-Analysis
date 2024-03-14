@@ -56,3 +56,26 @@ void draw() {
     aWidget.draw();
   }
 }
+//// written by Sadhbh and Niamh
+// Niamh's version of main
+//import java.util.Scanner;
+//String[] lines;
+//int currentLineIndex = 0;
+//Table dateTable; Table mKTCarrierTable;
+
+
+//void setup(){
+//  size(400, 400);
+//  lines = loadStrings("flights2k.csv");
+// // PFont myFont = loadFont("Phosphate-Solid-48.vlw");
+//  StoreData storeData = new StoreData();
+//  storeData.setup();
+//}
+//void draw(){
+//  background(200);
+//  if(currentLineIndex < lines.length){
+//    println(lines[currentLineIndex]);
+//    //text(lines[currentLineIndex], 100, 100);
+//    currentLineIndex++;
+//  }
+//} 
