@@ -28,12 +28,12 @@ void setup(){
   Widget widget1, widget2, widget3;
 
 // Niamh
-  PFont myFont = loadFont("Phosphate-Solid-28.vlw");
+  PFont myFont = loadFont("Arial-Black-22.vlw");
   textFont(myFont);
 
-  widget1 = new Widget(40, 40, 160, 40, "Airline", color(80, 142, 228), stdFont, EVENT_BUTTON1);
-  widget2 = new Widget(260, 40, 160, 40, "Destination", color(88,224,104), stdFont, EVENT_BUTTON2);
-  widget3 = new Widget(480, 40, 160, 40, "Date", color(240, 188, 82), stdFont, EVENT_BUTTON3);
+  widget1 = new Widget(40, 40, 160, 40, "Airline", color(80, 142, 228), myFont, EVENT_BUTTON1);
+  widget2 = new Widget(260, 40, 160, 40, "Destination", color(88,224,104), myFont, EVENT_BUTTON2);
+  widget3 = new Widget(480, 40, 160, 40, "Date", color(240, 188, 82), myFont, EVENT_BUTTON3);
   
   widgetList = new ArrayList();
   widgetList.add(widget1);
@@ -49,7 +49,7 @@ void draw() {
     println(lines[currentLineIndex]); 
     if(currentLineIndex>0){
       fill(0);
-      text(lines[currentLineIndex],5,100);
+      text(lines[currentLineIndex],40,480);
       delay(500);
     }
     currentLineIndex++;
