@@ -14,8 +14,8 @@ ArrayList widgetList;
 
 
 void setup(){
-  size(960, 640);
-  bgImg = loadImage("bgImg.jpg");
+  size(1407, 946);
+  bgImg = loadImage("bgImg.png");
   //mouseImg = loadImage("mouseImg.jpg");
   
   lines = loadStrings("flights2k.csv");
@@ -28,7 +28,7 @@ void setup(){
   PFont stdFont;
   Widget widget1, widget2, widget3;
 
-  stdFont = createFont("Arial-Black-48.vlw", 28);
+  stdFont = loadFont("Arial-Black-48.vlw");
   textFont(stdFont);
 
   widget1 = new Widget(40, 40, 160, 40, "Airline", color(80, 142, 228), stdFont, EVENT_BUTTON1);
