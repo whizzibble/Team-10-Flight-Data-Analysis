@@ -28,12 +28,12 @@ void setup(){
   PFont stdFont;
   Widget widget1, widget2, widget3;
 
-  stdFont = loadFont("Arial-Black-48.vlw");
+  stdFont = loadFont("Arial-Black-30.vlw");
   textFont(stdFont);
 
-  widget1 = new Widget(40, 40, 160, 40, "Airline", color(80, 142, 228), stdFont, EVENT_BUTTON1);
-  widget2 = new Widget(260, 40, 160, 40, "Destination", color(88,224,104), stdFont, EVENT_BUTTON2);
-  widget3 = new Widget(480, 40, 160, 40, "Date", color(240, 188, 82), stdFont, EVENT_BUTTON3);
+  widget1 = new Widget(40, 40, 200, 40, "Airline", color(80, 142, 228), stdFont, EVENT_BUTTON1);
+  widget2 = new Widget(260, 40, 200, 40, "Destination", color(88,224,104), stdFont, EVENT_BUTTON2);
+  widget3 = new Widget(480, 40, 200, 40, "Date", color(240, 188, 82), stdFont, EVENT_BUTTON3);
   
   widgetList = new ArrayList();
   widgetList.add(widget1);
@@ -56,6 +56,7 @@ void draw() {
     aWidget.draw();
   }
 }
+
 //// written by Sadhbh and Niamh
 // Niamh's version of main
 //import java.util.Scanner;
